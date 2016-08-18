@@ -1,0 +1,51 @@
+body {
+  background: url(../images/2011-Big-Ten-10-logo.jpg);
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  height: 100%;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h1, h2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.container{
+  background: darkblue;
+  width: 500px;
+  height: 625px;
+  margin: auto;
+}
+
+p {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 18px;
+}
+
+#blank {
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+#myGuesses{
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+#the-word li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+#img {
+  text-align: center;
+  margin-top: 25px;
+}
