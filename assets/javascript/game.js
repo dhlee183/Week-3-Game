@@ -58,6 +58,7 @@ window.onload = function () {
     for (var i = 0; i < guesses.length; i++) {
       if (counter + space == guesses.length) {
         showGuesses.innerHTML = "You Win!";
+        winsTracker.innerHTML = 1; 
       }
     }
   } 
