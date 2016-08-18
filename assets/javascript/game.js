@@ -5,8 +5,7 @@ window.onload = function () {
   var answer;              
   var guess;            
   var guesses = [ ];     
-  var guessesRemain;
-  var userGuess;        
+  var guessesRemain;        
   var counter;           
   var space;              
   var showGuesses = document.getElementById("myGuesses");
@@ -77,10 +76,8 @@ window.onload = function () {
         guessesRemain -= 1;
         letterGuess.innerHTML = guess;
         remark();
-        
       } else {
         remark();
-        
       }
     }
   }
